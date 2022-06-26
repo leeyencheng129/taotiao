@@ -1,6 +1,6 @@
 <template>
   <div class="home-container">
-    <van-nav-bar title="标题" fixed />
+    <van-nav-bar title="標題" fixed />
     <van-pull-refresh v-model="isLoading" :disabled="finished" success-text="刷新成功" @refresh="onRefresh">
       <van-list v-model="loading" :finished="finished" finished-text="没有更多了" @load="onLoad">
         <ArticleInfo
